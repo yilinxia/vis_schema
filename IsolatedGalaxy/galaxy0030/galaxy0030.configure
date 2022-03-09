@@ -1,0 +1,93 @@
+========================================================================
+make show-version
+========================================================================
+
+/a/sulky38/g.ki.ki12/mturk/ia64_local/bin/hg: line 13: syntax error near unexpected token `import'
+/a/sulky38/g.ki.ki12/mturk/ia64_local/bin/hg: line 13: `import mercurial.dispatch'
+SVN Branch   
+/a/sulky38/g.ki.ki12/mturk/ia64_local/bin/hg: line 13: syntax error near unexpected token `import'
+/a/sulky38/g.ki.ki12/mturk/ia64_local/bin/hg: line 13: `import mercurial.dispatch'
+SVN Revision 
+
+========================================================================
+gmake show-config
+========================================================================
+
+   MACHINE: Orange
+   MACHINE-NAME: orange-hdf4
+
+   PARAMETER_MAX_SUBGRIDS:       100000
+   PARAMETER_MAX_BARYONS:        30
+   PARAMETER_MAX_TASKS_PER_NODE: 8
+
+   CONFIG_PRECISION:             32
+   CONFIG_PARTICLES:             64
+   CONFIG_INTEGERS:              32
+   CONFIG_INITS:                 64
+   CONFIG_IO:                    32
+   CONFIG_USE_MPI:               yes
+   CONFIG_OBJECT_MODE:           64
+   CONFIG_TASKMAP:               no
+   CONFIG_PACKED_AMR:            yes
+   CONFIG_PACKED_MEM:            no
+   CONFIG_LCAPERF:               no
+   CONFIG_PAPI:                  no
+   CONFIG_PYTHON:                no
+   CONFIG_ECUDA:                 no
+   CONFIG_OOC_BOUNDARY:          no
+   CONFIG_OPT:                   debug
+   CONFIG_TESTING:               no
+   CONFIG_TPVEL:                 no
+   CONFIG_PHOTON:                yes
+   CONFIG_USE_HDF4:              yes
+   CONFIG_NEW_GRID_IO:           no
+   CONFIG_BITWISE_IDENTICALITY:  no
+   CONFIG_FAST_SIB:              yes
+   CONFIG_FLUX_FIX:              no
+
+========================================================================
+gmake show-flags
+========================================================================
+
+CPP = /usr/bin/cpp
+CC  = /afs/slac/package/OpenMPI/1.2.5/amd64_linux26/bin/mpicc
+which: invalid option -- D
+which: invalid option -- M
+which: invalid option -- P
+which: invalid option -- I
+which: invalid option -- C
+which: invalid option -- H
+which: invalid option -- _
+which: invalid option -- I
+which: invalid option -- G
+which: invalid option -- N
+which: invalid option -- O
+which: invalid option -- R
+which: invalid option -- E
+which: invalid option -- _
+which: invalid option -- C
+which: invalid option -- X
+which: invalid option -- X
+which: invalid option -- _
+which: invalid option -- S
+which: invalid option -- E
+which: invalid option -- E
+which: invalid option -- K
+CXX = /afs/slac/package/OpenMPI/1.2.5/amd64_linux26/bin/mpic++
+FC  = /afs/slac/package/OpenMPI/1.2.5/amd64_linux26/bin/mpif90
+F90 = /afs/slac/package/OpenMPI/1.2.5/amd64_linux26/bin/mpif90
+LD  = /afs/slac/package/OpenMPI/1.2.5/amd64_linux26/bin/mpicc
+
+DEFINES = -DLINUX -DH5_USE_16_API -DEMBEDDED_PYTHON  -D__max_subgrids=100000 -D__max_baryons=30 -D__max_cpu_per_node=8 -DINITS64 -DSMALL_INTS -DIO_32   -DUSE_MPI   -DCONFIG_PFLOAT_8 -DCONFIG_BFLOAT_4  -DUSE_HDF5_GROUPS    -DTRANSFER  -DFAST_SIB     -DUSE_HDF4
+
+INCLUDES = -I/afs/slac/g/ki/software/hdf5/1.6.6/amd64_linux26//include -I/afs/slac/g/ki/software/hdf4/amd64_linux26/include  -I/u/ki/mturk/Research/local/yt-x86_64//include/python2.6/ -I/u/ki/mturk/Research/local/yt-x86_64//lib/python2.6/site-packages/numpy/core/include         -I.
+
+CPPFLAGS = -P -traditional
+CFLAGS   = -fPIC -g
+CXXFLAGS = -fPIC -g
+FFLAGS   = -fPIC -r4 -i4 -g
+F90FLAGS = -fPIC -r4 -i4 -g
+LDFLAGS  = -Wl -g
+
+LIBS     = -L/afs/slac/g/ki/software/hdf5/1.6.6/amd64_linux26//lib -lhdf5 -lz  -L/afs/slac/g/ki/software/hdf4/amd64_linux26/lib -lm -lmfhdf -lz -ldf -ljpeg  -L/afs/slac.stanford.edu/package/intel_tools/compiler9.0/@sys/fc/lib/ -limf -lifcore -lifport -L/afs/slac.stanford.edu/package/intel_tools/compiler9.0/@sys/cc/lib/ -lstdc++ -lg2c  /u/ki/mturk/Research/local/yt-x86_64//lib/python2.6/config/libpython2.6.a      
+
