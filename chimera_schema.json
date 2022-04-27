@@ -1,0 +1,15 @@
+{
+   "filetype": "hdf5",
+   "geometry": {
+      "dimensions": "/mesh/array_dimensions",
+      "spherical": {
+         "order": "[r, theta, phi]"
+      },
+      "hexahedral_mesh": {
+         "edge": "[/mesh/x_ef, /mesh/y_ef, /mesh/z_ef]"
+      }
+   },
+   "fields": {
+      "root": "/fluid"
+   }
+}
